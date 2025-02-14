@@ -10,14 +10,16 @@ Our mission is to build unstoppable private money that empowers human freedom an
 
 ### The Network Sustainability Mechanism
 
-The Network Sustainability Mechanism (NSM) is a pair of proposed modifications to the ZEC supply economics.
+The Network Sustainability Mechanism (NSM) is composed of three proposed modifications to the ZEC supply economics.
 
 1. Users can choose to voluntarily burn ZEC with each transaction. This enables for voluntary deflationary action.
 2. The step-function ZEC issuance is smoothed to a curve. This enableds more predictable miner rewards, and a much more simplified implementation.
+3. Burn 60% of transaction fees from circulation to support network sustainability.
 
 Each change is defined as a Zcash Improvement Proposals (ZIP):
 -  ZIP-233: [Burning](https://zips.z.cash/zip-0233)
 -  ZIP-234: [Smoothing the Issuance Curve](https://zips.z.cash/zip-0234)
+-  ZIP-235: [Burn 60% of Transaction Fees](https://zips.z.cash/zip-0235)
 
 [comment - mark]: # (proposed? approved? scheduled?)
 [comment - mark]: # (We should ACK Eiger here)
