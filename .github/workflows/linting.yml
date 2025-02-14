@@ -13,7 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: "**/*.md"
+
       - name: markdownlint
         run: |
-          gem install mdl
+          sudo gem install mdl
           mdl **/*.md
